@@ -1,0 +1,38 @@
+@media(max-width:768px) {
+    .top-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-menu .logo {
+        margin-bottom: 100px;
+    }
+
+    .top-menu .logo, .top-menu nav .navigation-menu li a {
+        font-size: 40px;
+    }
+
+    .navigation-menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #cadastro {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:258px) {
+    .top-menu {
+        padding: 30px;
+    }
+    
+    .top-menu .logo, .top-menu nav .navigation-menu li a {
+        font-size: 30px;
+    }
+
+    #cadastro {
+        font-size: 12px;
+    }
+}
